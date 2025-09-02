@@ -1,7 +1,6 @@
 @import "./_font.css";
 @import "./_base.css";
 @import "./_layout.css";
-@import "./modules/_example.css";
 @import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";
 @import "../css/modules/_article.css";
 @import "../css/modules/_button.css";
