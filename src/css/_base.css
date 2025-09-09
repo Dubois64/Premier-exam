@@ -12,3 +12,30 @@ img,
 video {
   display: block;
 }
+
+h1 {
+  color: var(--Text-secondary, #000);
+  font-family: "Caesar Dressing";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header {
+  background-color: #bcbfc3;
+}
+
+h2 {
+  flex: 1 0 0;
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.col-10 {
+  display: flex;
+}

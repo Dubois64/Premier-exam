@@ -5,3 +5,90 @@
 .card-subtitle {
   display: flex;
 }
+
+.card_title-panteon {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.card-blue {
+  color: var(--Background, #fff);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  background: var(--Blue, #279ef8);
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.card-yellow {
+  color: var(--Background, #fff);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  background: var(--Yellow, #f8af27);
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.card-green {
+  color: var(--Background, #fff);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  background: var(--Green, #12965d);
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.card-red {
+  color: var(--Background, #fff);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  border-radius: 8px;
+  background: var(--Red, #f82727);
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.card-arrow-white {
+  stroke: white;
+  padding-left: 50%;
+}
+
+.card-arrow-white-yellow {
+  stroke: white;
+  padding-left: 40%;
+}
