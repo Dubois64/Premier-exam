@@ -2,10 +2,6 @@
   display: flex;
 }
 
-.card-subtitle {
-  display: flex;
-}
-
 .card_title-panteon {
   color: var(--Text-main, #515050);
   font-family: "Bubbler One";
@@ -135,4 +131,32 @@
 
 .card-little-icon {
   margin-left: 20%;
+}
+
+.card-flex {
+  margin: 0%;
+}
+
+.card-name-info-txt {
+  flex: 1 0 0;
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  border: 2px solid var(--Blue, #279ef8);
+  background: var(--Background, #fff);
+}
+
+.card-subtitle {
+  display: flex;
+  margin-left: -30%;
+}
+
+.card-little-icon {
+  display: flex;
+  flex-shrink: 0;
+  margin-left: 0%;
 }
