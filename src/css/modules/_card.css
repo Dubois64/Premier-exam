@@ -124,9 +124,8 @@
   padding-top: 3%;
   padding-bottom: 3%;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 10px;
+  margin-right: 50%;
 }
 
 .card-little-icon {
@@ -142,7 +141,6 @@
   font-family: "Bubbler One";
   font-size: 20px;
   font-weight: 400;
-  line-height: normal;
   border-radius: 8px;
   border: 2px solid var(--Blue, #279ef8);
   background: var(--Background, #fff);
@@ -151,11 +149,13 @@
 .card-subtitle {
   display: flex;
   align-items: center;
-  padding: 4px 0;
   color: #333;
   font-size: 14px;
 }
 
+.card-subtitle-01 {
+  font-size: 20px;
+}
 .card-little-icon {
   margin-left: 8px;
   width: 16px;
@@ -170,8 +170,57 @@
   left: 0;
   bottom: 0;
   background: var(--Background, #fff);
+  color: var(--Blue, #279ef8);
 }
 
 .card-Athéna {
   position: relative;
+}
+
+.card-name-info-txt-red {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: 2px solid var(--Blue, #ff0000);
+  background: var(--Background, #fff);
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50%;
+}
+
+.card-Mars {
+  display: flex;
+  height: 216px;
+  padding: 12px 0;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 2px solid var(--Blue, #ff0000);
+  background: var(--Background, #fff);
+  height: 200px;
+  padding: 0px 0px;
+}
+
+.card-01-02-flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card-bloc-under-left {
+  display: flex;
+  padding: 8px 12px;
+  align-items: flex-start;
+  position: absolute;
+  left: 50;
+  bottom: -660;
+  background: var(--Background, #fff);
+  color: var(--Blue, #ff0000);
 }
