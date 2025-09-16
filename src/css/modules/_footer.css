@@ -1,8 +1,34 @@
 .footer-line {
   border-top: 1px solid var(--Text-secondary, #000);
+  background-color: #000;
 }
 
 .footer-icon-social-media {
   display: flex;
   align-items: baseline;
+}
+
+.footer_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1 0 0;
+}
+
+.footer-sources {
+  color: var(--Text-secondary, #000);
+  font-family: "Bubbler One";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  align-items: end;
+}
+
+.footer_flex {
+  display: flex;
 }
