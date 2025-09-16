@@ -1,466 +1,483 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Caesar+Dressing&display=swap"
-      rel="stylesheet"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
+  <html data-theme="light">
+    <head>
+      <meta charset="utf-8" />
+      <title>eikon parcel starter</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/main.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Caesar+Dressing&display=swap"
+        rel="stylesheet"
+      />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-10"><h1>Atlas divin</h1></div>
+            <div class="burger">
+              <div class="col-2">
+                <img src="img/icon/tabler-icons/align-justified.png" />
+              </div>
+            </div>
+
+            <div class="menu">
+              <ul>
+                <li><a href="#">Mes favoris</a></li>
+                <li><a href="#">Dieu du jour</a></li>
+                <li><a href="#">Dieu populaires</a></li>
+              </ul>
+              <header class="header">
+                <button
+                  type="button"
+                  id="dark-mode-btn"
+                  class="header-dark-mode-btn"
+                >
+                  <img class="burger-img" src="img/Toggle Mode Button.png" />
+                </button>
+                <button
+                  type="button"
+                  id="light-mode-btn"
+                  class="header-light-mode-btn"
+                >
+                  <img class="burger-img" src="img/white.png" />
+                </button>
+              </header>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
         <div class="row">
-          <div class="col-10"><h1>Atlas divin</h1></div>
-          <div class="burger">
-            <div class="col-2">
-              <img src="img/icon/tabler-icons/align-justified.png" />
-            </div>
-          </div>
-
-          <div class="menu">
-            <ul>
-              <li><a href="#">Mes favoris</a></li>
-              <li><a href="#">Dieu du jour</a></li>
-              <li><a href="#">Dieu populaires</a></li>
-            </ul>
-            <img class="burger-img" src="img/Toggle Mode Button.png" />
+          <div class="col-12">
+            <h2>Voir les Dieux des panthéons</h2>
           </div>
         </div>
-      </div>
-    </header>
 
-    <main>
-      <div class="row">
+        <div class="article-daily">
+          <div class="col-12">
+            <p class="article-title-card">Dieu du jour</p>
+            <p class="article-name-daily">Baccus</p>
+            <p class="article-little-title">Dieu romain du vin</p>
+
+            <p class="article-description">
+              Egalement Dieu de l'ivresse, des débordements, de la nature et des
+              festivités. <br />
+              <br />
+              Bacchus est un dieu romain correspondant à Dionysos dans la
+              mythologie grecque. Les Romains utilisaient Bacchus comme un autre
+              nom de Liber Pater, un dieu latin de la fécondité.
+            </p>
+            <div class="col-10">
+              <p class="article-see-next">En savoir plus</p>
+
+              <img
+                src="img/icon/tabler-icons/arrow-narrow-right.png"
+                alt="next"
+              />
+            </div>
+          </div>
+        </div>
+
         <div class="col-12">
-          <h2>Voir les Dieux des panthéons</h2>
-        </div>
-      </div>
-
-      <div class="article-daily">
-        <div class="col-12">
-          <p class="article-title-card">Dieu du jour</p>
-          <p class="article-name-daily">Baccus</p>
-          <p class="article-little-title">Dieu romain du vin</p>
-
-          <p class="article-description">
-            Egalement Dieu de l'ivresse, des débordements, de la nature et des
-            festivités. <br />
-            <br />
-            Bacchus est un dieu romain correspondant à Dionysos dans la
-            mythologie grecque. Les Romains utilisaient Bacchus comme un autre
-            nom de Liber Pater, un dieu latin de la fécondité.
-          </p>
-          <div class="col-10">
-            <p class="article-see-next">En savoir plus</p>
-
-            <img
-              src="img/icon/tabler-icons/arrow-narrow-right.png"
-              alt="next"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12">
-        <p class="card_title-panteon">Panthéons populaires</p>
-        <div class="card-popular-pantheons-color">
-          <div class="card-blue">
-            Panthéon grec
-            <img
-              class="card-arrow-white"
-              src="img/icon/tabler-icons/arrow-narrow-right.png"
-            />
-          </div>
-          <div class="card-yellow">
-            Panthéon égyptien
-            <img
-              class="card-arrow-white-yellow"
-              src="img/icon/tabler-icons/arrow-narrow-right.png"
-            />
-          </div>
-          <div class="card-green">
-            Panthéon nordique
-            <img
-              class="card-arrow-white-yellow"
-              src="img/icon/tabler-icons/arrow-narrow-right.png"
-            />
-          </div>
-          <div class="card-red">
-            Panthéon romain
-            <img
-              class="card-arrow-white-yellow"
-              src="img/icon/tabler-icons/arrow-narrow-right.png"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="card-01-02-flex">
-        <div class="card-01">
-          <div class="card-flex">
-            <div class="col-6">
-              <div class="card-Athéna">
-                <img
-                  class="card-athena-img"
-                  src="img/Dieux et déesses/athena.png"
-                  alt="image de Mars"
-                />
-
-                <div class="card-bloc-under">
-                  <h3>Athéna</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-name-info-txt">
-            <p class="card-subtitle-01">
+          <p class="card_title-panteon">Panthéons populaires</p>
+          <div class="card-popular-pantheons-color">
+            <div class="card-blue">
               Panthéon grec
-              <img class="card-little-icon" src="img/logo-blue.png" />
-            </p>
-            <p class="card-subtitle">Déesse de la guerre</p>
-          </div>
-        </div>
-
-        <div class="card-02">
-          <div class="card-flex">
-            <div class="col-6">
-              <div class="card-Mars">
-                <img
-                  class="card-athena-img"
-                  src="img/Dieux et déesses/mars.png"
-                  alt="image de Mars"
-                />
-
-                <div class="card-bloc-under-left">
-                  <h3>Mars</h3>
-                </div>
-              </div>
+              <img
+                class="card-arrow-white"
+                src="img/icon/tabler-icons/arrow-narrow-right.png"
+              />
             </div>
-          </div>
-
-          <div class="card-name-info-txt-red">
-            <p class="card-subtitle-01">
-              Panthéon romain
-              <img class="card-little-icon" src="img/red-logo.png" />
-            </p>
-            <p class="card-subtitle">Dieu de la guerre</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="card-01-02-flex">
-        <div class="card-01">
-          <div class="card-flex">
-            <div class="col-6">
-              <div class="card-Ra">
-                <img
-                  class="card-athena-img"
-                  src="img/Dieux et déesses/ra.png"
-                  alt="image de Mars"
-                />
-
-                <div class="card-bloc-under">
-                  <h3>RA</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-name-info-txt-yellow">
-            <p class="card-subtitle-01">
+            <div class="card-yellow">
               Panthéon égyptien
-              <img class="card-little-icon" src="img/yellow-logo.png" />
-            </p>
-            <p class="card-subtitle">Dieu créateur</p>
-          </div>
-        </div>
-
-        <div class="card-02">
-          <div class="card-flex">
-            <div class="col-6">
-              <div class="card-Freya">
-                <img
-                  class="card-athena-img"
-                  src="img/Dieux et déesses/freya.png"
-                  alt="image de Mars"
-                />
-
-                <div class="card-bloc-under-left">
-                  <h3>Freya</h3>
-                </div>
-              </div>
+              <img
+                class="card-arrow-white-yellow"
+                src="img/icon/tabler-icons/arrow-narrow-right.png"
+              />
             </div>
-          </div>
-
-          <div class="card-name-info-txt-green">
-            <p class="card-subtitle-01">
+            <div class="card-green">
               Panthéon nordique
-              <img class="card-little-icon" src="img/green-logo.png" />
-            </p>
-            <p class="card-subtitle">Déesse fertilité</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="card-01-02-flex">
-        <div class="card-01">
-          <div class="card-flex">
-            <div class="col-6">
-              <div class="card-Freya">
-                <img
-                  class="card-athena-img"
-                  src="img/Dieux et déesses/loki.png"
-                  alt="image de Mars"
-                />
-
-                <div class="card-bloc-under">
-                  <h3>Loki</h3>
-                </div>
-              </div>
+              <img
+                class="card-arrow-white-yellow"
+                src="img/icon/tabler-icons/arrow-narrow-right.png"
+              />
             </div>
-          </div>
-
-          <div class="card-name-info-txt-green">
-            <p class="card-subtitle-01">
-              Panthéon nordique
-              <img class="card-little-icon" src="img/green-logo.png" />
-            </p>
-            <p class="card-subtitle">Dieu du Chaos</p>
-          </div>
-        </div>
-
-        <div class="card-02">
-          <div class="card-flex">
-            <div class="col-6">
-              <div class="card-Mars">
-                <img
-                  class="card-athena-img"
-                  src="img/Dieux et déesses/fortuna.png"
-                  alt="image de Mars"
-                />
-
-                <div class="card-bloc-under-left">
-                  <h3>Mars</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-name-info-txt-red">
-            <p class="card-subtitle-01">
+            <div class="card-red">
               Panthéon romain
-              <img class="card-little-icon" src="img/red-logo.png" />
-            </p>
-            <p class="card-subtitle">Déesse de la bonne fortune</p>
+              <img
+                class="card-arrow-white-yellow"
+                src="img/icon/tabler-icons/arrow-narrow-right.png"
+              />
+            </div>
           </div>
         </div>
-      </div>
+        <div class="card-01-02-flex">
+          <div class="card-01">
+            <div class="card-flex">
+              <div class="col-6">
+                <div class="card-Athéna">
+                  <img
+                    class="card-athena-img"
+                    src="img/Dieux et déesses/athena.png"
+                    alt="image de Mars"
+                  />
 
-      <div class="card-01-02-flex">
-        <div class="card-01">
-          <div class="card-flex">
-            <div class="col-6">
-              <div class="card-Athéna">
-                <img
-                  class="card-athena-img"
-                  src="img/Dieux et déesses/artemis.png"
-                  alt="image de Mars"
-                />
-
-                <div class="card-bloc-under">
-                  <h3>Artémis</h3>
+                  <div class="card-bloc-under">
+                    <h3>Athéna</h3>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="card-name-info-txt">
-            <p class="card-subtitle-01">
-              Panthéon grec
-              <img class="card-little-icon" src="img/logo-blue.png" />
-            </p>
-            <p class="card-subtitle">Déesse de la chasse</p>
-          </div>
-        </div>
-
-        <div class="card-02">
-          <div class="card-flex">
-            <div class="col-6">
-              <div class="card-Ra">
-                <img
-                  class="card-athena-img"
-                  src="img/Dieux et déesses/anubis.png"
-                  alt="image de Mars"
-                />
-
-                <div class="card-bloc-under-left">
-                  <h3>Anubis</h3>
-                </div>
-              </div>
+            <div class="card-name-info-txt">
+              <p class="card-subtitle-01">
+                Panthéon grec
+                <img class="card-little-icon" src="img/logo-blue.png" />
+              </p>
+              <p class="card-subtitle">Déesse de la guerre</p>
             </div>
           </div>
 
-          <div class="card-name-info-txt-yellow">
-            <p class="card-subtitle-01">
-              Panthéon égyptiens
-              <img class="card-little-icon" src="img/yellow-logo.png" />
-            </p>
-            <p class="card-subtitle">Dieu funéraire</p>
-          </div>
-        </div>
-      </div>
+          <div class="card-02">
+            <div class="card-flex">
+              <div class="col-6">
+                <div class="card-Mars">
+                  <img
+                    class="card-athena-img"
+                    src="img/Dieux et déesses/mars.png"
+                    alt="image de Mars"
+                  />
 
-      <div class="card-01-02-flex">
-        <div class="card-01">
-          <div class="card-flex">
-            <div class="col-6">
-              <div class="card-Athéna">
-                <img
-                  class="card-athena-img"
-                  src="img/Dieux et déesses/zeus.png"
-                  alt="image de Mars"
-                />
-
-                <div class="card-bloc-under">
-                  <h3>Zeus</h3>
+                  <div class="card-bloc-under-left">
+                    <h3>Mars</h3>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="card-name-info-txt">
-            <p class="card-subtitle-01">
-              Panthéon grec
-              <img class="card-little-icon" src="img/logo-blue.png" />
-            </p>
-            <p class="card-subtitle">Dieu du ciel</p>
+            <div class="card-name-info-txt-red">
+              <p class="card-subtitle-01">
+                Panthéon romain
+                <img class="card-little-icon" src="img/red-logo.png" />
+              </p>
+              <p class="card-subtitle">Dieu de la guerre</p>
+            </div>
           </div>
         </div>
 
-        <div class="card-02">
-          <div class="card-flex">
-            <div class="col-6">
-              <div class="card-Mars">
-                <img
-                  class="card-athena-img"
-                  src="img/Dieux et déesses/lucifer.png"
-                  alt="image de Mars"
-                />
+        <div class="card-01-02-flex">
+          <div class="card-01">
+            <div class="card-flex">
+              <div class="col-6">
+                <div class="card-Ra">
+                  <img
+                    class="card-athena-img"
+                    src="img/Dieux et déesses/ra.png"
+                    alt="image de Mars"
+                  />
 
-                <div class="card-bloc-under-left">
-                  <h3>Lucifer</h3>
+                  <div class="card-bloc-under">
+                    <h3>RA</h3>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="card-name-info-txt-red">
-            <p class="card-subtitle-01">
-              Panthéon romain
-              <img class="card-little-icon" src="img/red-logo.png" />
-            </p>
-            <p class="card-subtitle">Dieu des étoiles</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="card-01-02-flex">
-        <div class="card-01">
-          <div class="card-flex">
-            <div class="col-6">
-              <div class="card-Freya">
-                <img
-                  class="card-athena-img"
-                  src="img/Dieux et déesses/hel.png"
-                  alt="image de Hel"
-                />
-
-                <div class="card-bloc-under">
-                  <h3>Hel</h3>
-                </div>
-              </div>
+            <div class="card-name-info-txt-yellow">
+              <p class="card-subtitle-01">
+                Panthéon égyptien
+                <img class="card-little-icon" src="img/yellow-logo.png" />
+              </p>
+              <p class="card-subtitle">Dieu créateur</p>
             </div>
           </div>
 
-          <div class="card-name-info-txt-green">
-            <p class="card-subtitle-01">
-              Panthéon grec
-              <img class="card-little-icon" src="img/green-logo.png" />
-            </p>
-            <p class="card-subtitle">Dieu du ciel</p>
-          </div>
-        </div>
+          <div class="card-02">
+            <div class="card-flex">
+              <div class="col-6">
+                <div class="card-Freya">
+                  <img
+                    class="card-athena-img"
+                    src="img/Dieux et déesses/freya.png"
+                    alt="image de Mars"
+                  />
 
-        <div class="card-02">
-          <div class="card-flex">
-            <div class="col-6">
-              <div class="card-Ra">
-                <img
-                  class="card-athena-img"
-                  src="img/Dieux et déesses/isis.png"
-                  alt="image de Mars"
-                />
-
-                <div class="card-bloc-under-left">
-                  <h3>Isis</h3>
+                  <div class="card-bloc-under-left">
+                    <h3>Freya</h3>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="card-name-info-txt-yellow">
-            <p class="card-subtitle-01">
-              Panthéon égyptien
-              <img class="card-little-icon" src="img/yellow-logo.png" />
-            </p>
-            <p class="card-subtitle">Déesse mère</p>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <br />
-    <footer>
-      <div class="footer_menu">
-        <p class="footer-title-1">Mes favoris</p>
-        <p class="footer-title-1">Dieu du jour</p>
-        <p class="footer-title-1">Dieux populaires</p>
-        <div class="footer_flex">
-          <p class="footer-title-1">Politique de confidentialité</p>
-
-          <div class="footer-icon-social-media">
-            <img
-              src="img/social-media/icon/jam-icons/outline & logos/facebook.svg"
-            />
-            <img
-              src="img/social-media/icon/jam-icons/outline & logos/instagram.svg"
-            />
-            <img
-              src="img/social-media/icon/jam-icons/outline & logos/youtube.svg"
-            />
+            <div class="card-name-info-txt-green">
+              <p class="card-subtitle-01">
+                Panthéon nordique
+                <img class="card-little-icon" src="img/green-logo.png" />
+              </p>
+              <p class="card-subtitle">Déesse fertilité</p>
+            </div>
           </div>
         </div>
-        <div class="footer-line"></div>
 
-        <div class="footer-sources">
-          Atlas Divin @ 2025. Tous droits réservés
+        <div class="card-01-02-flex">
+          <div class="card-01">
+            <div class="card-flex">
+              <div class="col-6">
+                <div class="card-Freya">
+                  <img
+                    class="card-athena-img"
+                    src="img/Dieux et déesses/loki.png"
+                    alt="image de Mars"
+                  />
+
+                  <div class="card-bloc-under">
+                    <h3>Loki</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-name-info-txt-green">
+              <p class="card-subtitle-01">
+                Panthéon nordique
+                <img class="card-little-icon" src="img/green-logo.png" />
+              </p>
+              <p class="card-subtitle">Dieu du Chaos</p>
+            </div>
+          </div>
+
+          <div class="card-02">
+            <div class="card-flex">
+              <div class="col-6">
+                <div class="card-Mars">
+                  <img
+                    class="card-athena-img"
+                    src="img/Dieux et déesses/fortuna.png"
+                    alt="image de Mars"
+                  />
+
+                  <div class="card-bloc-under-left">
+                    <h3>Mars</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-name-info-txt-red">
+              <p class="card-subtitle-01">
+                Panthéon romain
+                <img class="card-little-icon" src="img/red-logo.png" />
+              </p>
+              <p class="card-subtitle">Déesse de la bonne fortune</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </footer>
 
-    <script src="js/main.js" type="module"></script>
-  </body>
+        <div class="card-01-02-flex">
+          <div class="card-01">
+            <div class="card-flex">
+              <div class="col-6">
+                <div class="card-Athéna">
+                  <img
+                    class="card-athena-img"
+                    src="img/Dieux et déesses/artemis.png"
+                    alt="image de Mars"
+                  />
+
+                  <div class="card-bloc-under">
+                    <h3>Artémis</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-name-info-txt">
+              <p class="card-subtitle-01">
+                Panthéon grec
+                <img class="card-little-icon" src="img/logo-blue.png" />
+              </p>
+              <p class="card-subtitle">Déesse de la chasse</p>
+            </div>
+          </div>
+
+          <div class="card-02">
+            <div class="card-flex">
+              <div class="col-6">
+                <div class="card-Ra">
+                  <img
+                    class="card-athena-img"
+                    src="img/Dieux et déesses/anubis.png"
+                    alt="image de Mars"
+                  />
+
+                  <div class="card-bloc-under-left">
+                    <h3>Anubis</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-name-info-txt-yellow">
+              <p class="card-subtitle-01">
+                Panthéon égyptiens
+                <img class="card-little-icon" src="img/yellow-logo.png" />
+              </p>
+              <p class="card-subtitle">Dieu funéraire</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-01-02-flex">
+          <div class="card-01">
+            <div class="card-flex">
+              <div class="col-6">
+                <div class="card-Athéna">
+                  <img
+                    class="card-athena-img"
+                    src="img/Dieux et déesses/zeus.png"
+                    alt="image de Mars"
+                  />
+
+                  <div class="card-bloc-under">
+                    <h3>Zeus</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-name-info-txt">
+              <p class="card-subtitle-01">
+                Panthéon grec
+                <img class="card-little-icon" src="img/logo-blue.png" />
+              </p>
+              <p class="card-subtitle">Dieu du ciel</p>
+            </div>
+          </div>
+
+          <div class="card-02">
+            <div class="card-flex">
+              <div class="col-6">
+                <div class="card-Mars">
+                  <img
+                    class="card-athena-img"
+                    src="img/Dieux et déesses/lucifer.png"
+                    alt="image de Mars"
+                  />
+
+                  <div class="card-bloc-under-left">
+                    <h3>Lucifer</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-name-info-txt-red">
+              <p class="card-subtitle-01">
+                Panthéon romain
+                <img class="card-little-icon" src="img/red-logo.png" />
+              </p>
+              <p class="card-subtitle">Dieu des étoiles</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-01-02-flex">
+          <div class="card-01">
+            <div class="card-flex">
+              <div class="col-6">
+                <div class="card-Freya">
+                  <img
+                    class="card-athena-img"
+                    src="img/Dieux et déesses/hel.png"
+                    alt="image de Hel"
+                  />
+
+                  <div class="card-bloc-under">
+                    <h3>Hel</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-name-info-txt-green">
+              <p class="card-subtitle-01">
+                Panthéon grec
+                <img class="card-little-icon" src="img/green-logo.png" />
+              </p>
+              <p class="card-subtitle">Dieu du ciel</p>
+            </div>
+          </div>
+
+          <div class="card-02">
+            <div class="card-flex">
+              <div class="col-6">
+                <div class="card-Ra">
+                  <img
+                    class="card-athena-img"
+                    src="img/Dieux et déesses/isis.png"
+                    alt="image de Mars"
+                  />
+
+                  <div class="card-bloc-under-left">
+                    <h3>Isis</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-name-info-txt-yellow">
+              <p class="card-subtitle-01">
+                Panthéon égyptien
+                <img class="card-little-icon" src="img/yellow-logo.png" />
+              </p>
+              <p class="card-subtitle">Déesse mère</p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <br />
+      <footer>
+        <div class="footer_menu">
+          <p class="footer-title-1">Mes favoris</p>
+          <p class="footer-title-1">Dieu du jour</p>
+          <p class="footer-title-1">Dieux populaires</p>
+          <div class="footer_flex">
+            <p class="footer-title-1">Politique de confidentialité</p>
+
+            <div class="footer-icon-social-media">
+              <img
+                src="img/social-media/icon/jam-icons/outline & logos/facebook.svg"
+              />
+              <img
+                src="img/social-media/icon/jam-icons/outline & logos/instagram.svg"
+              />
+              <img
+                src="img/social-media/icon/jam-icons/outline & logos/youtube.svg"
+              />
+            </div>
+          </div>
+          <div class="footer-line"></div>
+
+          <div class="footer-sources">
+            Atlas Divin @ 2025. Tous droits réservés
+          </div>
+        </div>
+      </footer>
+
+      <script src="js/main.js" type="module"></script>
+    </body>
+  </html>
 </html>
